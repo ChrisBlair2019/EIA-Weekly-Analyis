@@ -3,7 +3,7 @@ This is a program written in Python that automatically retrieves the EIA report 
 
 # Control Flow
 1. Run on an Amazon EC2 Instance running Ubuntu 16.04
-2. Crontab that runs at 10:30 am EST in order to generate the report
+2. Crontab that runs at 10:30 am EST in order to generate the report ("31 10 * * WED" Runs at 10:31am (account for timediff) every WED)
 3. Runs shell script with error reporting 
 4. Shell Script has 4 Steps
     1. First it runs Python Retrieve File "python get_EIA_PDFs.py"
