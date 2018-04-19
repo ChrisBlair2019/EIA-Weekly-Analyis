@@ -1,7 +1,7 @@
 # EIA-Weekly-Analysis
 This is a program written in Python that automatically retrieves the EIA report summarizes it and converts it to an email format to email to the COINS group
 
-#Control Flow
+# Control Flow
 1. Run on an Amazon EC2 Instance running Ubuntu 16.04
 2. Crontab that runs at 10:30 am EST in order to generate the report
 3. Runs shell script with error reporting 
@@ -18,7 +18,7 @@ This is a program written in Python that automatically retrieves the EIA report 
     4. Now run python email file "email.py" which emails the current list of emails
         -Stored locally, not publically in order to get the publication
 
-#Steps to Parse the Input
+# Steps to Parse the Input
 1. Form the URL for the current report pdf 
 
     For the previous week 4/11/2018 URL looks like this
